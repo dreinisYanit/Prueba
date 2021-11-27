@@ -1,0 +1,7 @@
+<div *ngFor="let item of cache.infiniteList" lazy [index]="item.id">
+    <p>{{item.id}}. {{item.name}}</p>
+    <img src="{{item.image}}" alt="">
+    <!--CARGA DE IMAGEN LAZY CON EL OBSERVER-->
+    <!-- <img lazy [image]="ruta" alt="">-->
+    <!--Y SE ACTIVA EL METODO DE LA DIRECTIVA PARA IMAGENES-->
+</div>

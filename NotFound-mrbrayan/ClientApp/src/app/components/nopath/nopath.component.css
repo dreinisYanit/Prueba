@@ -1,0 +1,45 @@
+
+@media(min-width:700px){
+    .message{
+        width: 700px;
+        height: fit-content;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .interchange{ 
+        margin-left: 20px;
+        height: 300px;
+        transition: 1s;
+    }
+}
+
+@media(max-width:700px){
+    .interchange{ 
+        margin: 20px 0 10px 0;
+        height: fit-content;
+        transition: 2s;
+    }
+}
+
+img{
+    border-radius: 50px;
+}
+
+.screen{
+    padding: 0 0 12px 0;
+    min-height: 86.2vh;
+    justify-content: center;
+}
+
+.img-300{
+    height: 300px;
+    width: 300px;
+}
+
+.interchange{ 
+    width: 300px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

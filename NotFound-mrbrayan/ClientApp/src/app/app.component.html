@@ -1,0 +1,17 @@
+<div style="background: inherit">
+  <p>
+    <mat-toolbar color="primary">
+      <span class="font-12">Bryan´s Snippet</span>
+      <span class="example-spacer"></span>
+      <form [formGroup]="form">
+        <mat-slide-toggle formControlName="switchTheme">
+          <mat-icon *ngIf="!switch">wb_sunny</mat-icon>
+          <mat-icon *ngIf="switch">brightness_2</mat-icon>
+        </mat-slide-toggle>
+      </form>
+    </mat-toolbar>
+  </p>
+  <div class="container">
+    <router-outlet></router-outlet>
+  </div>
+</div>
